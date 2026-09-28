@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Arcana Sort</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="background"></div>
+<header class="topbar">
+  <div>
+    <div class="eyebrow">A QUIET ALCHEMY</div>
+    <h1>Arcana Sort</h1>
+    <p id="levelName">Level 1</p>
+  </div>
+  <div class="stats">
+    <div><span>MOVES</span><b id="moves">0</b></div>
+    <div><span>SORTED</span><b id="sorted">0/0</b></div>
+    <div><span>TIME</span><b id="timer">∞</b></div>
+  </div>
+</header>
+<main>
+  <section class="help">
+    <div>
+      <h2>How to Play</h2>
+      <p>Click one flask, then click another flask to pour.</p>
+      <p>You can pour into an empty flask or onto the <strong>same color</strong>.</p>
+      <p>The whole matching top group moves together when there is enough room.</p>
+      <p>Sort every color into its own flask to win.</p>
+    </div>
+    <button id="howBtn" class="button">Rules</button>
+  </section>
+
+  <p id="message" class="message">Choose a flask to begin.</p>
+  <section id="rack" class="rack" aria-label="Puzzle flasks"></section>
+
+  <section class="controls">
+    <button id="pauseBtn" class="button">⏸ Pause</button>
+    <button id="undoBtn" class="button">↶ Undo</button>
+    <button id="hintBtn" class="button">💡 Hint</button>
+    <button id="restartBtn" class="button">↻ Restart</button>
+    <button id="musicBtn" class="button">♫ Calm Music</button>
+    <button id="nextBtn" class="button primary hidden">Next Level →</button>
+  </section>
+
+  <section class="levels">
+    <h2>Levels</h2>
+    <div id="levelList"></div>
+  </section>
+</main>
+
+<div id="modal" class="modal hidden">
+  <div class="modal-card">
+    <div class="modal-icon">✦</div>
+    <h2 id="modalTitle">How to Play</h2>
+    <div id="modalBody"></div>
+    <button id="modalButton" class="button primary">Got it</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
