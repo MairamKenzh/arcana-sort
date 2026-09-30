@@ -1,4 +1,4 @@
-### 1 promt
+### 1 prompt
 I want you to build a small browser puzzle game for me.
 
 The basic idea is similar to Ball Sort Puzzle: the player has several transparent glass vessels with different colored magical elements inside them, and they need to sort everything correctly.
@@ -285,4 +285,10 @@ The most important priorities are:
 
 if you have a better idea for a mechanic, UI detail, or fantasy interaction that fits the concept, feel free to improve the design rather than following my examples literally.
 
-Build the actual playable game, not just a description of how it could work.
+### 2 prompt
+OK make it much more easier just pour flask to another  without any cursing and anythig like that : add instruction and dont crush the game pls  just simplify the interface and add some calm music
+
+### 3 promt
+Ball Sort Puzzle - Free Online Color Sorting Game | Cognitive Train make it like this
+## 4 prompt 
+Remove music just sound when I'M choosing items
